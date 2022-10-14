@@ -38,3 +38,12 @@ const example1 = nbYear(p0Example1, percentageExample1, augExample1, pExample1)
 const example2 = nbYear(p0Example2, percentageExample2, augExample2, pExample2)
 console.log(example1)
 console.log(example2)
+
+//DevMountain Solution
+// function nbYear(p0, percent, aug, p) {
+//     for (var y = 0; p0 < p; y++) {
+//         p0 = p0 * (1 + percent / 100) + aug;
+//     }
+//     return y;
+//   }
+  
